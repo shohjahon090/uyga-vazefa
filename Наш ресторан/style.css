@@ -1,0 +1,378 @@
+@charset "UTF-8";
+.Наш__ресторан__section {
+  max-width: 100%;
+  height: 800px;
+  background-image: url(./asets/img/hero\ image\ \(3\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Наш__ресторан__contaner {
+  width: 75%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.Наш__ресторан__contaner p {
+  color: #fff;
+}
+.Наш__ресторан__contaner h1 {
+  padding: 10px 0;
+  font-size: 70px;
+  color: #d76e34;
+  font-weight: 200;
+}
+.Наш__ресторан__contaner h1 span {
+  font-size: 40px;
+}
+.Наш__ресторан__contaner button {
+  background-color: #ff7400;
+  border: none;
+  padding: 20px 40px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .Наш__ресторан__contaner {
+    width: 90%;
+    height: 750px;
+  }
+  .Наш__ресторан__contaner h1 {
+    font-size: 55px;
+  }
+  .Наш__ресторан__contaner h1 span {
+    font-size: 30px;
+  }
+  .Наш__ресторан__section {
+    height: 700px;
+  }
+}
+.Лучшее__качество__Еды {
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Лучшее__качествo__Еды__contaner {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  position: absolute;
+  width: 75%;
+  height: 350px;
+  gap: 40px;
+  text-align: center;
+  top: -80px;
+}
+.Лучшее__качествo__Еды__contaner div {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 2px 5px 8px black;
+}
+.Лучшее__качествo__Еды__contaner div h3 {
+  padding: 10px 0;
+}
+.Лучшее__качествo__Еды__contaner div h3 span {
+  color: #bc9060;
+}
+
+@media only screen and (max-width: 900px) {
+  .Лучшее__качествo__Еды__contaner {
+    grid-template-columns: auto;
+    grid-template-rows: 280px 280px 280px;
+    width: 90%;
+    height: 350px;
+  }
+  .Лучшее__качество__Еды {
+    height: 800px;
+  }
+}
+.Наша__История {
+  max-width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Наша__История__contaner {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 75%;
+  height: 90%;
+  padding: 10px 0;
+  gap: 30px;
+}
+.Наша__История__contaner div {
+  padding: 20px 40px;
+  text-align: center;
+}
+.Наша__История__contaner div h2 {
+  display: inline-block;
+  margin-top: 100px;
+  padding: 0 20px;
+  font-size: 30px;
+  font-weight: 200;
+}
+.Наша__История__contaner div h3 {
+  font-size: 50px;
+  font-weight: 200;
+  padding: 10px 0;
+}
+.Наша__История__contaner div h3 span {
+  color: #bc9060;
+}
+.Наша__История__contaner div p {
+  line-height: 1.4;
+}
+
+.mini__img__page {
+  max-width: 100%;
+  height: 350px;
+  background-image: url(../asets/img/bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 350px;
+}
+.mini__img__page h2 {
+  color: #bc9060;
+  font-size: 50px;
+  font-weight: 200;
+}
+.mini__img__page h3 {
+  font-weight: 700;
+  color: #fff;
+}
+.mini__img__page button {
+  background-color: #FF7400;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 20px 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .Наша__История__contaner {
+    grid-template-columns: auto;
+    width: 90%;
+    gap: 20px;
+    grid-template-rows: 530px 530px;
+  }
+  .Наша__История__contaner div {
+    padding: 0 0;
+  }
+  .Наша__История__contaner div img {
+    width: 100%;
+    height: 100%;
+  }
+  .Наша__История__contaner div h2 {
+    display: block;
+    margin-top: 20px;
+  }
+  .mini__img__page {
+    gap: 20px;
+    padding: 0 20px;
+  }
+  .mini__img__page h2 {
+    font-size: 30px;
+  }
+  .mini__img__page h2 button {
+    padding: 10px 20px;
+  }
+  .Наша__История {
+    height: 1200px;
+  }
+}
+.Наши__Блюда {
+  max-width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Наши__Блюда .big img {
+  width: 100%;
+  height: 100%;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 0;
+}
+.h2 span {
+  color: #bc9060;
+}
+
+.Наши__Блюда__contaner {
+  width: 75%;
+  height: 90%;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 500px auto;
+}
+.Наши__Блюда__contaner div img {
+  padding: 10px;
+}
+.Наши__Блюда__contaner div p {
+  text-align: center;
+}
+
+.Посетитель {
+  max-width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
+}
+.Посетитель div {
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 20px;
+}
+.Посетитель div p {
+  padding: 20px 0;
+}
+
+.Галерея__Блюд {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 700px;
+}
+
+.Галерея__Блюд__contaner {
+  width: 75%;
+  height: 670px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 325px 325px;
+  gap: 20px;
+}
+.Галерея__Блюд__contaner div img {
+  width: 100%;
+  height: 100%;
+}
+
+.Наши__Повара {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 600px;
+}
+
+.Наши__Повара__contaner {
+  width: 75%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 400px;
+  gap: 30px;
+}
+
+.foter {
+  max-width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../asets/img/MAKE\ A\ RESERVATION.png);
+}
+
+@media only screen and (max-width: 900px) {
+  .Наши__Блюда__contaner {
+    grid-template-columns: auto;
+    width: 95%;
+    height: 95%;
+  }
+  .Наши__Блюда {
+    height: 1000px;
+  }
+  .h2 {
+    padding: 0 0;
+  }
+  .Галерея__Блюд__contaner {
+    grid-template-columns: auto;
+    height: 97%;
+  }
+  .Галерея__Блюд {
+    height: 2200px;
+  }
+  .Наши__Повара__contaner {
+    grid-template-columns: auto;
+    width: 90%;
+    height: 97%;
+  }
+  .Наши__Повара {
+    height: 1200px;
+  }
+}
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+.container {
+  max-width: 1312px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 50px 0px;
+  color: rgb(0, 0, 0);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+
+.nav__link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+  font-weight: 800;
+  transition: 0.1s ease-in-out;
+  -webkit-text-decoration: underline 4px #DD2D50;
+          text-decoration: underline 4px #DD2D50;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,140 @@
+.Наши__Блюда{
+    max-width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ .big{
+    img{
+      width: 100%;
+    height: 100%;   
+    }
+    
+ }
+}
+.h2{
+    text-align: center;
+      font-size: 40px;
+      padding: 30px 0;
+        span{
+            color: #bc9060;
+        }
+}
+.Наши__Блюда__contaner{
+    width: 75%;
+    height: 90%;
+
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 500px auto;
+    div{
+    
+img{
+    padding: 10px;
+   
+}
+        p{
+            text-align: center;
+        }
+    }
+}
+
+
+.Посетитель{
+    max-width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #E5E5E5;
+    div{
+        text-align: center;
+        line-height: 1.5;
+        padding: 0 20px;
+        p{
+            padding: 20px 0;
+        }
+    }
+}
+
+.Галерея__Блюд{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 700px;
+}
+.Галерея__Блюд__contaner{
+    width: 75%;
+    height: 670px;
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 325px 325px  ;
+    gap: 20px;
+    div{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.Наши__Повара{
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 100%;
+height: 600px;
+}
+.Наши__Повара__contaner{
+    width: 75%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 400px;
+    gap: 30px;
+}
+.foter{
+    max-width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../asets/img/MAKE\ A\ RESERVATION.png);
+}
+
+
+
+@media only screen and (max-width: 900px){
+    .Наши__Блюда__contaner{
+        grid-template-columns: auto ;
+        width: 95%;
+     height: 95%;
+    }
+    .Наши__Блюда{
+
+        height: 1000px;
+    }
+    .h2{
+        padding: 0 0;
+    }
+    .Галерея__Блюд__contaner{
+        grid-template-columns: auto;
+       height: 97%;
+
+    }
+    .Галерея__Блюд{
+        height: 2200px; 
+    }
+
+.Наши__Повара__contaner{
+    grid-template-columns: auto;
+    width: 90%;
+     height: 97%;
+}
+.Наши__Повара{
+    height: 1200px;
+    
+}
+
+}

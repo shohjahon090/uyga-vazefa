@@ -1,0 +1,44 @@
+.Лучшее__качество__Еды{
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Лучшее__качествo__Еды__contaner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  position: absolute;
+    width: 75%;
+    height: 350px;
+    gap: 40px;
+    text-align: center;
+    top: -80px;
+     
+    div{
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 2px 5px 8px black;
+        h3{
+            padding: 10px 0;
+            span{
+                color: #bc9060;
+            }
+        }
+     
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .Лучшее__качествo__Еды__contaner{
+        grid-template-columns: auto;  
+         grid-template-rows: 280px 280px 280px;
+         width: 90%;
+         height: 350px;
+    }
+    .Лучшее__качество__Еды{
+        height: 800px;
+    }
+    
+}
